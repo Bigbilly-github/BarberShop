@@ -1,14 +1,13 @@
 
 import './App.css'
+import Header from './components/header'
 
 function App() {
   
 
   return (
     <>
-    <div className='w-[500px] h-[500px] bg-[red] '>
-
-    </div>
+    <Header/>
      
     </>
   )
