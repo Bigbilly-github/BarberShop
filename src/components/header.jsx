@@ -5,8 +5,8 @@ function Header(){
 
     return(
         <>
-        <header className="w-full h-[90px] bg-[black]  flex items-center justify-between px-[72px] ">
-            <h1 className="text-[40px] font-extrabold font-serif tracking-wide text-[#FFFFFF]">
+        <header className="w-full fixed left-0 right-0 top-0 h-[90px] bg-transparent flex items-center justify-between px-[72px] ">
+            <h1 className="text-[40px] font-extrabold font-karan tracking-wide  text-[#E9C664]">
                 The Cut Lab
             </h1>
             <nav>
