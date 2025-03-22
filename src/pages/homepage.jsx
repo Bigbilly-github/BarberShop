@@ -1,5 +1,6 @@
 import Header from "../components/header"
 import Hero from "../components/hero"
+import Services from "../components/services"
 
 
 
@@ -9,6 +10,7 @@ function Homepage (){
         <Header/>
         <main>
             <Hero/>
+            <Services/>
         </main>
         </>
     )
