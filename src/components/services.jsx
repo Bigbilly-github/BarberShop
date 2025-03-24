@@ -53,6 +53,9 @@ function Services (){
 
             </div>
         )}
+        <button className='w-[186px] cursor-pointer h-[50px] hover:opacity-60 border border-[#E9C664] text-[#E9C664] font-inter font-semibold text-[20px] mx-[80%]'>
+            EXPLORE NOW
+        </button>
 
            
 

@@ -16,7 +16,7 @@ function Hero (){
                 At The Finest Barbershop, we offer a wide range of professional hair cutting and grooming services for men. Our experienced barbers use the latest techniques and tools to give you the perfect look. Whether you're in need of a classic haircut, straight razor shave, or beard trim, we've got you covered.
                 </p>
 
-                <button className="w-[191px] h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
+                <button className="w-[191px] cursor-pointer  h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
                     Book Appointment
                 </button>
             </div>

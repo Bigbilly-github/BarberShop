@@ -17,7 +17,7 @@ function Header(){
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter text-[18px] font-normal"><a href="">Contact Us</a></li>
                 </ul>
             </nav>
-            <button className="w-[191px] h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
+            <button className="w-[191px]  cursor-pointer h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
                 Book Appointment
             </button>
 
