@@ -1,4 +1,5 @@
 import Details from "../components/details"
+import Discount from "../components/discount"
 import Header from "../components/header"
 import Hero from "../components/hero"
 import Services from "../components/services"
@@ -13,6 +14,7 @@ function Homepage (){
             <Hero/>
             <Services/>
             <Details/>
+             <Discount/>
         </main>
         </>
     )
