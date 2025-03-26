@@ -1,11 +1,27 @@
+import { useState, useEffect } from "react";
 
 
 
 function Header(){
 
+    const [isScrolled, setIsScrolled] =  useState(false)
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 10) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
     return(
         <>
-        <header className="w-full fixed left-0 right-0 top-0 h-[90px] bg-transparent flex items-center justify-between px-[72px] ">
+        <header className={`w-full fixed left-0 right-0 top-0 h-[90px] ${isScrolled ? "bg-black" : "bg-transparent"}  z-40 flex items-center justify-between px-[72px] `}>
             <h1 className="text-[40px] font-extrabold font-karan tracking-wide  text-[#E9C664]">
                 The Cut Lab
             </h1>
