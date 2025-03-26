@@ -4,7 +4,7 @@
 function Hero (){
     return(
         <>
-        <section  className="bg-[url('./src/svg/hero/bg.svg')]  animate-fadeIn  animate-pulse transform -translate-y-0 bg-cover  pt-[170px] bg-center pl-[72px] w-full h-[90vh] ">
+        <section  className="bg-[url('./src/svg/hero/bg.svg')]  animate-fadeIn  animate-pulse transform -translate-y-0 bg-cover  pt-[170px] bg-center pl-[72px] w-full h-[90vh]  ">
             <div className=" w-[542px] h-[442px]">
                 <h1 className="w-[494px] h-[50px] font-karan font-extrabold tracking-widest mb-0 text-[48px] text-[#E9C664]">
                 THE BARBERSHOP
