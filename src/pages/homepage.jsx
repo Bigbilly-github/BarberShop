@@ -3,6 +3,7 @@ import Discount from "../components/discount"
 import Header from "../components/header"
 import Hero from "../components/hero"
 import Services from "../components/services"
+import Sponsors from "../components/sponsors"
 import Testimonial from "../components/testimonial"
 
 
@@ -18,6 +19,7 @@ function Homepage (){
             <Details/>
              <Discount/>
              <Testimonial/>
+             <Sponsors/>
         </main>
         </>
     )
