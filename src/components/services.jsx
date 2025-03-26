@@ -32,19 +32,19 @@ function Services (){
     ]
     return(
         <>
-        <section className="bg-[url('/src/svg/service-section/img.svg')] mt-[120px] bg-cover pl-[72px]  bg-center w-full h-[1374px]">
+        <section className="bg-[url('/src/svg/service-section/img.svg')] mt-[120px] bg-cover  flex flex-col items-center  bg-center w-full sm:h-[2000px] h-[1900px] md:h-[1274px]">
          <div>
-            <p className="text-center font-inter text-[19px] text-[#E9C664] mb-0">
+            <p className="text-center font-inter text-[16px] text-[#E9C664] mb-0">
                 OUR TREATMENT
             </p>
-           <p className="font-fatface text-[50px] tracking-[5%] mt-[15px] text-[#FFFFFF] text-center">
+           <p className="font-fatface md:text-[50px]  sm:text-[40px] text-[35px] tracking-[5%] mt-[15px] text-[#FFFFFF] text-center">
             SERVICES
            </p>
          </div>
-         <div className="grid grid-cols-2 gap-[50px] w-[730px] mt-[157px]">
-            {serviceDetails.map((service,index)=>  <div key={index} className="flex items-center  justify-center flex-col  gap-[25px] rounded-[6px] border border-[#E9C664] w-[337px] h-[337px]">
-                <img src={service.image} alt="image of a scissors" />
-                <h1 className='font-fatface text-[20px] tracking-[5%] mb-0 text-[#FFFFFF]'>
+         <div className="md:grid md:grid-cols-2 grid-cols-1 md:gap-[50px] lg:w-[900px] w-[730px] flex flex-col items-center gap-[50px]   mt-[77px] md:mt-[157px]">
+            {serviceDetails.map((service,index)=>  <div key={index} className="flex items-center  justify-center flex-col  gap-[25px] rounded-[6px] border border-[#E9C664] sm:w-[400px] md:w-[337px] lg:w-[400px]  w-[337px] h-[337px]">
+                <img src={service.image} alt="image of a scissors"  />
+                <h1 className='font-fatface  text-[20px] tracking-[5%] mb-0 text-[#FFFFFF]'>
                     {service.maintext}
                 </h1>
                 <p className='font-inter text-[16px] text-[#FFFFFF] w-[242px]'>
@@ -53,14 +53,15 @@ function Services (){
 
             </div>
         )}
-        <button className='w-[186px] cursor-pointer h-[50px] hover:opacity-60 border border-[#E9C664] text-[#E9C664] font-inter font-semibold text-[20px] mx-[80%]'>
-            EXPLORE NOW
-        </button>
+       
 
            
 
 
          </div>
+         <button className='w-[186px] mt-[50px] cursor-pointer h-[50px] hover:opacity-60 border border-[#E9C664] text-[#E9C664] font-inter font-semibold text-[20px] mx-[80%]'>
+            EXPLORE NOW
+        </button>
         </section>
         </>
     )
