@@ -42,7 +42,7 @@ function Header(){
             <button className="xl:w-[191px] md:w-[170px] w-[150px] hidden sm:block sm:bg-[red] md:bg-[blue] lg:bg-[orange] xl:bg-[green]  cursor-pointer h-[40px] xl:h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[12px] xl:text-[14px] border-2 border-[#E9C664] rounded-[5px]">
                 Book Appointment
             </button>
-            <div onClick={ChangeIsTrue} className="relative sm:hidden    bg-[red] sm:bg-[blue]">
+            <div onClick={ChangeIsTrue} className="relative sm:hidden   sm:bg-[blue]">
                  <img src={menu} alt="hamburger menu icon" className="h-[34px]  " />
                  <div className={`absolute w-[150px]  h-[150px] bg-black -left-[100px] ${istrue ? null : "hidden"} flex flex-col items-center  justify-evenly rounded-[6px]`}>
                     <a href=""className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Services</a>
