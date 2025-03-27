@@ -1,25 +1,28 @@
 
-import image from '../svg/testimonials/img.svg'
+'
+import image1 from '../img/testimonials/profileimg.jpeg'
+import image2 from '../img/testimonials/img2.jpeg'
+import image3 from '../img/testimonials/img3.jpeg'
 
 function Testimonial() {
 
     const testimonies = [
         {
-            profileimage:image,
+            profileimage:image1,
             testimony:" The best haircut I've ever had! The team at The Cut Lab is exceptional.",
             name:"MIKE DEAN",
             location:"MIAMI",
         },
         {
-            profileimage:image,
+            profileimage:image2,
             testimony:" A truly luxurious experience. I felt pampered and left looking sharp.",
             name:"MICAH RICHARDS",
             location:"FLORIDA",
         },
         {
-            profileimage:image,
+            profileimage:image3,
             testimony:"The attention to detail and professionalism were top-notch. I left feeling confident and refreshed. Highly recommend!",
-            name:"ALAN SHEARER",
+            name:"JOHN DUMELO",
             location:"BOSTON",
         }
     ]
@@ -38,7 +41,7 @@ function Testimonial() {
 
                         <div className="w-[1296px] lg:w-[1100px] lg:h-[261px] h-[1000px]  mt-[90px] flex flex-col items-center gap-[80px] lg:flex-row lg:justify-between xl:gap-[183px]">
                            { testimonies.map((testimony,index)=>  <div key={index} className='w-[310px] h-[261px]  flex flex-col items-center justify-between'>
-                                <img src={testimony.profileimage} alt="" className="rounded-[50%] " />
+                                <img src={testimony.profileimage} alt="" className="rounded-[50%] h-[98px] w-[98px] " />
                                 <p className='font-inter text-[16px] text-center'>
                                     {testimony.testimony}
                                 </p>

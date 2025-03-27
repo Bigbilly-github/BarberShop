@@ -22,8 +22,7 @@ function Footer (){
                     CONTACT US
                     </h1>
                     <p className="xl:w-[771px] text-center w-[300px] h-[31px] mt-[20px] lg:mt-[35px] xl:mt-[45px] font-inter text-[16px]">
-                    Duis pretium gravida enim, vel maximus ligula fermentum a. Sed rhoncus eget ex id egestas. Nam nec 
-                    nisl placerat, tempus erat a, condimentum metusurabitur nulla nisi.
+                    Have questions or ready for your next fresh cut? Our team is here to help! Whether you need a quick trim, a full makeover, or just some grooming advice, we’ve got you covered.
                     </p>
 
                 </div>
