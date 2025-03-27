@@ -45,7 +45,7 @@ function Footer (){
                         <p className='font-fatface text-[20px] tracking-[5%] mt-[15px] mb-0 text-black'>
                             EMAIL
                         </p>
-                        <p className='w-[245px] h-[23px] text-center  mt-[10px] font-inter text-[17px] text-black'>
+                        <p className='w-[260px] h-[23px] text-center  mt-[10px] font-inter text-[17px] text-black'>
                         info@thecutlab.com
                         </p>
 
