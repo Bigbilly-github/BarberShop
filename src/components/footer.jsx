@@ -27,7 +27,7 @@ function Footer (){
                     </p>
 
                 </div>
-                <div className="w-[1296px] h-[183px] flex justify-center items-center xl:gap-[75px] lg:gap-[10px] md:gap-[20px] gap-[30px] border-b border-[#E9C664] ">
+                <div className="w-[1296px] h-[183px] flex justify-center items-center xl:gap-[75px] lg:gap-[10px] md:gap-[20px] sm:gap-[30px] border-b border-[#E9C664] ">
                     <div className='w-[248px] h-[153px] hidden  lg:flex flex-col items-center pt-[10px]  '>
                         <img src={locationicon} alt="location icon" />
                         <p className='font-fatface text-[20px] tracking-[5%] mt-[10px] mb-0 text-black'>
