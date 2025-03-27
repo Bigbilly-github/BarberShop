@@ -6,7 +6,7 @@ function Discount (){
         <>
         <section className="w-full h-[530px] bg-[#000000] pt-[123px]">
             <div className="lg:w-[1440px] md:w-[1200px] sm:w-[1050px] h-[407px] bg-[#E9C664] sm:bg-[url('/src/svg/discount/img.svg')]    pt-[103px] bg-no-repeat bg-[90%_50%] ">
-            <div className="w-[541px] h-[200px] xl:ml-[75px] md:ml-[40px] ml-[30px] ">
+            <div className="w-[541px] h-[200px] xl:ml-[75px] md:ml-[40px] ml-[20px] ">
                 <h1 className="font-fatface xl:text-[70px] sm:text-[50px] text-[30px] mb-0 tracking-[5%] w-[541px] ">
                     25% DISCOUNT
                 </h1>
