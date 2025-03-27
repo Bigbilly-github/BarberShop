@@ -1,5 +1,5 @@
 
-'
+
 import image1 from '../img/testimonials/profileimg.jpeg'
 import image2 from '../img/testimonials/img2.jpeg'
 import image3 from '../img/testimonials/img3.jpeg'
