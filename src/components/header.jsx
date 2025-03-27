@@ -21,7 +21,7 @@ function Header(){
 
     return(
         <>
-        <header className={`w-full fixed left-0 right-0 top-0 h-[90px] ${isScrolled ? "bg-black" : "bg-transparent"}  z-40 flex items-center justify-between xl:px-[72px] md:px-[40px] px-[30px]`}>
+        <header className={`w-full fixed left-0 right-0 top-0 h-[90px] ${isScrolled ? "bg-black" : "bg-transparent"}  z-40 flex items-center justify-between xl:px-[72px] md:px-[40px] px-[20px]`}>
             <h1 className="xl:text-[40px] md:text=[32px] text-[24px] font-extrabold font-karan tracking-wide  text-[#E9C664]">
                 The Cut Lab
             </h1>
