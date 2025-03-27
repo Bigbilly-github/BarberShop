@@ -31,7 +31,7 @@ function Details (){
     return(
         <>
             <section className="w-full xl:h-[326px] h-[326px] flex justify-center items-center bg-[#212121]">
-                <div className='flex xl:gap-[180px] md:gap-[100px] gap-[40px] '>
+                <div className='flex xl:gap-[180px] md:gap-[100px] sm:gap-[40px] gap-[20px] '>
                     {details.map ((detail,index)=> <div key={index} className='xl:w-[180px] md:w-[180px] w-[120px]  h-[206px] gap-[10px] flex flex-col items-center'>
                         <img src={detail.image} alt={`image of a ${detail.alttext}`}  className="h-[60px]"/>
                         <p className='font-fatface  xl:text-[70px] md:text-[50px] lg:text-[60px] text-[20px] text-[#E9C664]'>
