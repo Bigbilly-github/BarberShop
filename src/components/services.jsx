@@ -11,22 +11,22 @@ function Services (){
      const serviceDetails = [{
         image:image1,
         maintext: "HAIRCUT & BEARD TRIM",
-        subtext:"Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        subtext:"Our barbers are skilled in delivering precision haircuts that suit your personality"
 
      },{
         image:image3,
         maintext: "SHAVES & HAIRCUT",
-        subtext:"Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        subtext:"Whether it's a trim, shaping, or a full shave, we ensure your beard looks immaculate."
      },
      {
         image:image2,
         maintext: "FACIAL & SHAVE",
-        subtext:"Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        subtext:"​Experience the luxury of a traditional hot towel shave for that clean, refreshing feel."
      },
      {
         image:image4,
         maintext: "THE BIG DAY",
-        subtext:"Duis porta, ligula rhoncuseuism od pretium, nisi tellus eleifend odio, luctus viverra sem."
+        subtext:"​Rejuvenate your skin with our specialized facial treatments, leaving you with a healthy glow, ready for tha big day of yours."
      }
 
     ]

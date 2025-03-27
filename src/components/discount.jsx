@@ -11,7 +11,7 @@ function Discount (){
                     25% DISCOUNT
                 </h1>
                 <p className="xl:w-[541px] w-[400px] xl:h-[31px] h-[50px] font-inter   mb-[35px] text-[16px] text-[#000000]">
-                    Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis impe
+                Enjoy 25% OFF all services for a limited time!.Book your appointment today, Offer valid for a short time only! Secure your spot now! 💈✨
                 </p>
                 <button className="w-[153px]  hover:opacity-75 transition-normal cursor-pointer h-[50px] bg-[#000000] font-inter font-semibold text-[20px] text-[#E9C664]">
                     BOOK NOW

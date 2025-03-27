@@ -6,19 +6,19 @@ function Testimonial() {
     const testimonies = [
         {
             profileimage:image,
-            testimony:" Vestibulum commodo sapien non elit porttitor, vitae volutpat nibh mollis. Nulla porta risus id neque. ",
-            name:"GLEN SPARKLE",
+            testimony:" The best haircut I've ever had! The team at The Cut Lab is exceptional.",
+            name:"MIKE DEAN",
             location:"MIAMI",
         },
         {
             profileimage:image,
-            testimony:" Vestibulum commodo sapien non elit porttitor, vitae volutpat nibh mollis. Nulla porta risus id neque. ",
+            testimony:" A truly luxurious experience. I felt pampered and left looking sharp.",
             name:"MICAH RICHARDS",
             location:"FLORIDA",
         },
         {
             profileimage:image,
-            testimony:" Vestibulum commodo sapien non elit porttitor, vitae volutpat nibh mollis. Nulla porta risus id neque. ",
+            testimony:"The attention to detail and professionalism were top-notch. I left feeling confident and refreshed. Highly recommend!",
             name:"ALAN SHEARER",
             location:"BOSTON",
         }
