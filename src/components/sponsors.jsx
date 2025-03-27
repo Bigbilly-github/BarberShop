@@ -23,7 +23,7 @@ function Sponsors (){
 
                         </div>
 
-                        <div className="lg:w-[810px]  xl:w-[510px] sm:w-[500px] md:w-[700px] w-[400px] h-[246px]  grid grid-cols-3  xl:gap-[20px] lg:gap-[30px] gap-[20px]">
+                        <div className="lg:w-[810px]  xl:w-[510px] sm:w-[500px] md:w-[700px] w-[350px] h-[246px]  grid grid-cols-3  xl:gap-[20px] lg:gap-[30px] sm:gap-[20px] gap-[15px]">
                             <img src={image1} alt="" className='xl:w-[150px]  xl:h-[108px] lg:w-[200px] lg:h-[150px] sm:w-[150px] w-[100px]  h-[100px] rounded-[10px]'/>
                             <img src={image2} alt="" className='xl:w-[150px]  xl:h-[108px] lg:w-[200px] lg:h-[150px] sm:w-[150px]  w-[100px]    h-[108px] rounded-[10px]'/>
                             <img src={image3} alt="" className='xl:w-[150px]  xl:h-[108px] lg:w-[200px] lg:h-[150px] sm:w-[150px] w-[100px]   h-[108px] rounded-[10px]'/>
