@@ -2,6 +2,7 @@
 import Discount from "../components/discount"
 import Footer from "../components/footer"
 import Header from "../components/header"
+import Pricing from "../components/pricing"
 import ServiceHero from "../components/serviceshero"
 import Testimonial from "../components/testimonial"
 
@@ -14,6 +15,7 @@ function Services (){
          <Header/>
         <main>
             <ServiceHero/>
+            <Pricing/>
             <Discount/>
             <Testimonial/>
 
