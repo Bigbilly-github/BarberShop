@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 import menu from '../svg/header/menu.svg'
 
@@ -36,7 +37,7 @@ function Header(){
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px] text-[14px] font-normal"><a href="">Services</a></li>
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><a href="">About Us</a></li>
                     
-                    <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><a href="">Contact Us</a></li>
+                    <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><Link to="/contactus">Contact Us</Link></li>
                 </ul>
             </nav>
             <button className="xl:w-[191px] md:w-[170px] w-[150px] hidden sm:block  active:bg-[black] active:text-black  cursor-pointer h-[40px] xl:h-[50px] bg-[black] hover:text-[black] hover:bg-slate-300 text-[#FFFFFF] font-inter font-black text-[12px] xl:text-[14px] border-2 border-[#E9C664] rounded-[5px]">
@@ -47,7 +48,7 @@ function Header(){
                  <div className={`absolute w-[150px]  h-[150px] bg-black -left-[100px] ${istrue ? null : "hidden"} flex flex-col items-center  justify-evenly rounded-[6px]`}>
                     <a href=""className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Services</a>
                     <a href=""className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">About Us</a>
-                    <a href=""className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Contact Us</a>
+                    <Link to="/contactus"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Contact Us</Link>
 
                  </div>
 
