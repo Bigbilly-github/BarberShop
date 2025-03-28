@@ -1,5 +1,5 @@
 
-
+import { Link } from "react-router-dom";
 
 function Hero (){
     return(
@@ -17,7 +17,7 @@ function Hero (){
                 </p>
 
                 <button className="sm:w-[191px]  active:bg-[black] active:text-black w-[150px] cursor-pointer  h-[50px] bg-[black] hover:text-[black] hover:bg-slate-300 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
-                    Book Appointment
+                <Link to="/contactus">Book Appointment</Link> 
                 </button>
             </div>
         </section>

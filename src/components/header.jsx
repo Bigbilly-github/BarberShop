@@ -41,7 +41,7 @@ function Header(){
                 </ul>
             </nav>
             <button className="xl:w-[191px] md:w-[170px] w-[150px] hidden sm:block  active:bg-[black] active:text-black  cursor-pointer h-[40px] xl:h-[50px] bg-[black] hover:text-[black] hover:bg-slate-300 text-[#FFFFFF] font-inter font-black text-[12px] xl:text-[14px] border-2 border-[#E9C664] rounded-[5px]">
-                Book Appointment
+               <Link to="/contactus">Book Appointment</Link> 
             </button>
             <div onClick={ChangeIsTrue} className="relative sm:hidden   sm:bg-[blue]">
                  <img src={menu} alt="hamburger menu icon" className="h-[34px]  " />
