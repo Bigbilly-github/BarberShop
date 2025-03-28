@@ -16,7 +16,7 @@ function Hero (){
                 <span className="hidden xl:block"> At The Cut Lab, we offer a wide range of professional hair cutting and grooming services for men. Our experienced barbers use the latest techniques and tools to give you the perfect look. </span><span className="block xl:hidden">Whether you're in need of a classic haircut, straight razor shave, or beard trim, we've got you covered.</span>
                 </p>
 
-                <button className="sm:w-[191px]  w-[150px] cursor-pointer  h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
+                <button className="sm:w-[191px]  active:bg-[black] active:text-black w-[150px] cursor-pointer  h-[50px] bg-[black] hover:text-[black] hover:bg-slate-300 text-[#FFFFFF] font-inter font-black text-[14px] border-2 border-[#E9C664] rounded-[5px]">
                     Book Appointment
                 </button>
             </div>

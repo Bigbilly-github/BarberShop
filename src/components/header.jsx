@@ -39,7 +39,7 @@ function Header(){
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><a href="">Contact Us</a></li>
                 </ul>
             </nav>
-            <button className="xl:w-[191px] md:w-[170px] w-[150px] hidden sm:block sm:bg-[red] md:bg-[blue] lg:bg-[orange] xl:bg-[green]  cursor-pointer h-[40px] xl:h-[50px] bg-[black] hover:text-[black] hover:bg-slate-700 text-[#FFFFFF] font-inter font-black text-[12px] xl:text-[14px] border-2 border-[#E9C664] rounded-[5px]">
+            <button className="xl:w-[191px] md:w-[170px] w-[150px] hidden sm:block  active:bg-[black] active:text-black  cursor-pointer h-[40px] xl:h-[50px] bg-[black] hover:text-[black] hover:bg-slate-300 text-[#FFFFFF] font-inter font-black text-[12px] xl:text-[14px] border-2 border-[#E9C664] rounded-[5px]">
                 Book Appointment
             </button>
             <div onClick={ChangeIsTrue} className="relative sm:hidden   sm:bg-[blue]">

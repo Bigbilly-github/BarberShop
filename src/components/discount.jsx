@@ -13,7 +13,7 @@ function Discount (){
                 <p className="xl:w-[541px] w-[400px] xl:h-[31px] h-[50px] font-inter   mb-[35px] text-[16px] text-[#000000]">
                 Enjoy 25% OFF all services for a limited time!.Book your appointment today, Offer valid for a short time only! Secure your spot now! 💈✨
                 </p>
-                <button className="w-[153px]  hover:opacity-75 transition-normal cursor-pointer h-[50px] bg-[#000000] font-inter font-semibold text-[20px] text-[#E9C664]">
+                <button className="w-[153px]  active:bg-[black] active:text-black hover:opacity-55 rounded-[4px] transition-normal cursor-pointer h-[50px] bg-[#000000] font-inter font-semibold text-[20px] text-[#E9C664]">
                     BOOK NOW
                 </button>
 

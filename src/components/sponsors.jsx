@@ -15,7 +15,7 @@ function Sponsors (){
                                 BRANDS WE CARRY
                             </h1>
                             <p className="text-[#FFFFFF] w-[349px] h-[57px] mt-[35px] font-inter text-[18px] ">
-                            Vestibulum commodo sapien non elit porttitor, vitae volutpat nibh mollis. Nulla porta risus id neque. 
+                            We’re proud to partner with top brands that help us deliver the best grooming experience. Our sponsors support us in keeping you looking sharp! 💈✨
                             </p>
 
                         </div>
