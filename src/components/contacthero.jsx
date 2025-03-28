@@ -67,7 +67,7 @@ function ContactHero (){
                                     <textarea type="text" id="message" name="message"   placeholder="Type here ..."  className="bg-slate-200 sm:w-[450px] xl:w-[556px] h-[134px] w-[380px]  py-[7px] pl-[8px] "  required/>
 
                         </div>
-                        <button type="submit" className="xl:w-[556px] sm:w-[450px] w-[380px] h-[51px] bg-[#E9C664] font-inter font-semibold rounded-[6px]">BOOK APPOINTMENT</button>
+                        <button type="submit" className="xl:w-[556px] active:bg-[black] active:text-black   sm:w-[450px] w-[380px] h-[51px] bg-[#E9C664]  hover:text-[#E9C664] hover:bg-black font-inter font-semibold rounded-[6px]">BOOK APPOINTMENT</button>
                    
 
                     </form>
