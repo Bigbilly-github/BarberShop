@@ -11,9 +11,13 @@ function ContactUs (){
     return(
         <>
         <Header/>
-        <ContactHero/>
-        <Discount/>
-        <Sponsors/>
+        <main>
+            <ContactHero/>
+            <Discount/>
+            <Sponsors/>
+
+        </main>
+        
         <Footer/>
 
         </>
