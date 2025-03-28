@@ -32,12 +32,12 @@ function Pricing (){
         <>
         <section className="w-full lg:h-[350px] h-[700px] bg-[#212121] mt-[50px] flex justify-center items-center ">
             <div className="lg:w-[1296px]  lg:h-[208px] h-[500px] bg-[#212121] grid lg:grid-cols-2 grid-cols-1 gap-[50px]   lg:gap-[40px] lg:px-[10%]    "> 
-               { pricingDetails.map ((details, index)=> <div  key={index} className="flex flex-col gap-[15px]">
+               { pricingDetails.map ((details, index)=> <div  key={index} className="flex  w-[380px] flex-col gap-[15px]">
                     <div className="flex justify-between items-center h-[30px] w-[410px]">
-                        <p className="sm:w-[94px]  w-[100px] text-[#FFFFFF] font-fatface text-[20px]  sm:text-[24px]">
+                        <p className="w-[94px] text-[#FFFFFF] font-fatface text-[20px]  sm:text-[24px]">
                         {details.priceitem}
                         </p>
-                        <div className="sm:w-[219px] w-[220px] h-[2px] bg-[#E9C664] rounded-b-[10px] rounded-t-[10px]">
+                        <div className="w-[219px]  h-[2px] bg-[#E9C664] rounded-b-[10px] rounded-t-[10px]">
 
                         </div>
                         <p className="font-fatface text-[20px]  sm:text-[24px] text-[#FFFFFF] tracking-[5%] w-[46px] ">
