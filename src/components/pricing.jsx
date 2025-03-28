@@ -32,8 +32,8 @@ function Pricing (){
         <>
         <section className="w-full lg:h-[350px] h-[700px] bg-[#212121] mt-[50px] flex justify-center items-center ">
             <div className="lg:w-[1296px]  lg:h-[208px] h-[500px] bg-[#212121] grid lg:grid-cols-2 grid-cols-1 gap-[50px]   lg:gap-[40px] lg:px-[10%]    "> 
-               { pricingDetails.map ((details, index)=> <div  key={index} className="flex  w-[380px] flex-col gap-[15px]">
-                    <div className="flex justify-between items-center h-[30px] w-[410px]">
+               { pricingDetails.map ((details, index)=> <div  key={index} className="flex sm:w-[419px] w-[380px] flex-col gap-[15px]">
+                    <div className="flex justify-between items-center h-[30px] sm:w-[410px] w-[380px]">
                         <p className="w-[94px] text-[#FFFFFF] font-fatface text-[20px]  sm:text-[24px]">
                         {details.priceitem}
                         </p>
@@ -44,7 +44,7 @@ function Pricing (){
                            {details.price}
                         </p>
                     </div>
-                    <p className="font-inter sm:text-[14px] text-[13px] w-[419px] h-[27px] text-[#FFFFFF]">
+                    <p className="font-inter sm:text-[14px] text-[13px] sm:w-[419px]  w-[380px] h-[27px] text-[#FFFFFF]">
                     {details.pricetext}
                     </p>
                 </div>
