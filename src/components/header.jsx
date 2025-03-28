@@ -35,7 +35,7 @@ function Header(){
             <nav className="hidden sm:block">
                 <ul className="flex justify-between xl:w-[350px] md:w-[280px] sm:w-[250px] ">
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px] text-[14px] font-normal"><Link to="/services">Services</Link></li>
-                    <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><a href="">About Us</a></li>
+                    <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><Link to="/aboutus">About Us</Link></li>
                     
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><Link to="/contactus">Contact Us</Link></li>
                 </ul>
@@ -47,7 +47,7 @@ function Header(){
                  <img src={menu} alt="hamburger menu icon" className="h-[34px]  " />
                  <div className={`absolute w-[150px]  h-[150px] bg-black -left-[100px] ${istrue ? null : "hidden"} flex flex-col items-center  justify-evenly rounded-[6px]`}>
                     <Link to="/services"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Services</Link>
-                    <a href=""className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">About Us</a>
+                    <Link to="/aboutus"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">About Us</Link>
                     <Link to="/contactus"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Contact Us</Link>
 
                  </div>
