@@ -1,7 +1,66 @@
+import { useState } from "react"
 
 
 
 function ContactHero (){
+
+    const [appointment, setAppointment] = useState(
+        {name:"",
+        email:"",
+        subject:"",
+        message:""
+
+        });
+    
+    function ChangeName (e){
+        const name = e.target.value;
+        if (name.trim() !== ""){
+            setAppointment(a => ({...a, name:name}))
+
+
+        }
+       
+    }
+
+    function ChangeEmail (e){
+        const email = e.target.value;
+        if (email.trim() !== ""){
+            setAppointment(a => ({...a, email:email}))
+
+
+        }
+       
+    }
+
+    function ChangeSubject (e){
+        const subject = e.target.value;
+        if (subject.trim() !== ""){
+            setAppointment(a => ({...a, subject:subject}))
+
+
+        }
+       
+    }
+
+    function ChangeMessage (e){
+        const message = e.target.value;
+        if (message.trim() !== ""){
+            setAppointment(a => ({...a, message:message}))
+
+
+        }
+       
+    }
+
+    function OnSubmission (){
+        const name = appointment.name;
+        alert(`Congrats ${name}, your appointment has been booked. See you soon.`);
+    }
+
+    console.log(appointment);
+    
+
+  
 
     return(
         <>
@@ -43,28 +102,28 @@ function ContactHero (){
 
                 </div>
                 <div className="xl:w-[636px] sm:w-[600px] w-[450px] h-[523px] flex flex-col items-center justify-center bg-[#212121] rounded-[10px]">
-                    <form action="" className="flex flex-col gap-[28px] items-center">
+                    <form onSubmit={OnSubmission} className="flex flex-col gap-[28px] items-center">
                         <div className="flex gap-[20px] ">
                                 <div className="flex flex-col gap-[8px]">
                                     <label htmlFor="name" className="text-[#FFFFFF] font-inter text-[16px] ">Your Name</label>
-                                    <input type="text" id="name" name="name" placeholder="Enter your name"  className="bg-slate-200 sm:w-[215px] xl:w-[266px] w-[170px]  py-[7px] pl-[8px] rounded-[3px] "  required/>
+                                    <input type="text" id="name" onChange={ChangeName} name="name" placeholder="Enter your name"  className="bg-slate-200 sm:w-[215px] xl:w-[266px] w-[170px]  py-[7px] pl-[8px] rounded-[3px] "  required/>
 
                                 </div>
                                 <div className="flex flex-col gap-[8px]">
                                     <label htmlFor="email" className="text-[#FFFFFF] font-inter text-[16px]">Your Email</label>
-                                    <input type="text" id="email" name="email"  placeholder="Enter your email"   className="bg-slate-200 sm:w-[215px] xl:w-[266px] w-[170px]  py-[7px] pl-[8px]  rounded-[3px] " required />
+                                    <input type="text" id="email" name="email"  onChange={ChangeEmail} placeholder="Enter your email"   className="bg-slate-200 sm:w-[215px] xl:w-[266px] w-[170px]  py-[7px] pl-[8px]  rounded-[3px] " required />
 
                                  </div>
 
                         </div>
                         <div className="flex flex-col gap-[8px]">
                                     <label htmlFor="subject" className="text-[#FFFFFF]  font-inter text-[16px]">Subject</label>
-                                    <input type="text" id="subject" name="subject"  placeholder="Enter subject here"   className="bg-slate-200 xl:w-[556px] sm:w-[450px] w-[360px]  rounded-[3px] pl-[8px]  py-[7px] "  required/>
+                                    <input type="text" id="subject" name="subject" onChange={ChangeSubject} placeholder="Enter subject here"   className="bg-slate-200 xl:w-[556px] sm:w-[450px] w-[360px]  rounded-[3px] pl-[8px]  py-[7px] "  required/>
 
                         </div>
                         <div className="flex flex-col gap-[8px]">
                                     <label htmlFor="message" className="text-[#FFFFFF]  font-inter text-[16px]">Your Message</label>
-                                    <textarea type="text" id="message" name="message"   placeholder="Type here ..."  className="bg-slate-200 sm:w-[450px] xl:w-[556px] rounded-[3px] h-[134px] w-[360px]  py-[7px] pl-[8px] "  required/>
+                                    <textarea type="text" id="message" name="message"  onChange={ChangeMessage}  placeholder="Type here ..."  className="bg-slate-200 sm:w-[450px] xl:w-[556px] rounded-[3px] h-[134px] w-[360px]  py-[7px] pl-[8px] "  required/>
 
                         </div>
                         <button type="submit" className="xl:w-[556px] active:bg-[black] active:text-black   sm:w-[450px] w-[360px] h-[51px] bg-[#E9C664]  hover:text-[#E9C664] hover:bg-black font-inter font-semibold rounded-[6px]">BOOK APPOINTMENT</button>
