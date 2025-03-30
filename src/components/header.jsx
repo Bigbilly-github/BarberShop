@@ -32,8 +32,12 @@ function Header(){
             <h1  className="xl:text-[40px] md:text=[32px] text-[24px] font-extrabold font-karan tracking-wide  text-[#E9C664]">
                <Link to="/">The Cut Lab</Link> 
             </h1>
+
+            
+            
             <nav className="hidden sm:block">
-                <ul className="flex justify-between xl:w-[350px] md:w-[280px] sm:w-[250px] ">
+                <ul className="flex justify-between xl:[400px] lg:w-[350px] md:w-[280px] sm:w-[280px] ">
+                <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px] text-[14px] font-normal"><Link to="/">Home</Link></li>
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px] text-[14px] font-normal"><Link to="/services">Services</Link></li>
                     <li className="text-[#FFFFFF] hover:opacity-65 font-inter xl:text-[18px] lg:text-[16px]  text-[14px] font-normal"><Link to="/aboutus">About Us</Link></li>
                     
@@ -46,6 +50,7 @@ function Header(){
             <div onClick={ChangeIsTrue} className="relative sm:hidden   sm:bg-[blue]">
                  <img src={menu} alt="hamburger menu icon" className="h-[34px]  " />
                  <div className={`absolute w-[150px]  h-[150px] bg-black -left-[100px] ${istrue ? null : "hidden"} flex flex-col items-center  justify-evenly rounded-[6px]`}>
+                    <Link to="/"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Home</Link>
                     <Link to="/services"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Services</Link>
                     <Link to="/aboutus"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">About Us</Link>
                     <Link to="/contactus"className="text-[#FFFFFF] hover:opacity-60 font-inter text-[14px] font-normal">Contact Us</Link>
